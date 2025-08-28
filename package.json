@@ -1,0 +1,18 @@
+{
+	"name": "tt4-dark-mode",
+	"scripts": {
+		"start": "wp-scripts start --webpack-src-dir=resources --output-path=public --experimental-modules",
+		"build": "wp-scripts build --webpack-src-dir=resources --output-path=public --experimental-modules"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.22.0",
+		"path": "^0.12.7",
+		"webpack-remove-empty-scripts": "^1.1.1"
+	},
+	"dependencies": {
+		"@wordpress/blocks": "^15.2.0",
+		"@wordpress/i18n": "^6.2.0",
+		"@wordpress/interactivity": "^6.29.0",
+		"@wordpress/primitives": "^4.29.0"
+	}
+}
