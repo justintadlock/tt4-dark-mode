@@ -3,6 +3,7 @@
 	"version": 3,
 	"settings": {
 		"color": {
+			"custom": false,
 			"palette": [
 				{
 					"color": "light-dark(#f9f9f9, #1c1c1c)",
